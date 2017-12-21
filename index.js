@@ -5,4 +5,5 @@ var updateObjectWithKeyAndValue = (object, key, value) => {
 
 var destructivelyUpdateObjectWithKeyAndValue = (object, key, value) => {
   object[key] = value;
+  return object;
 };
