@@ -13,3 +13,7 @@ var deleteFromObjectByKey = (object, key) => {
   delete obj[key];
   return obj;
 };
+
+var destructivelyDeleteFromObjectByKey = (object, key) => {
+  delete object[key]
+}
