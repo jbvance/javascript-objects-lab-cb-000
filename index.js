@@ -14,6 +14,4 @@ var deleteFromObjectByKey = (object, key) => {
   return obj;
 };
 
-var destructivelyDeleteFromObjectByKey = (object, key) => {
-  return delete object[key];
-};
+var destructivelyDeleteFromObjectByKey = (object, key) => delete object[key];
